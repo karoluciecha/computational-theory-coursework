@@ -2,12 +2,13 @@
 
 This repository contains my solutions to the Computational Theory problems for my 4th-year module during the Winter 2026 / 2027 semester.
 
-The main submission file is [`problems.ipynb`](problems.ipynb).
+The main submission file is [`problems.ipynb`](problems.ipynb), which develops a complete SHA-256 implementation in Python using NumPy.
 
 ## Requirements
 
 - Python 3.10 or later
-- Jupyter Notebook
+- Jupyter Notebook or JupyterLab
+- NumPy
 
 The packages listed in [`requirements.txt`](requirements.txt) provide the required environment.
 
@@ -54,6 +55,10 @@ The notebook should be run with a restarted kernel to ensure that all cells exec
 ├── `README.md`
 └── `requirements.txt`
 ```
+
+## References
+
+The implementation is based on:
 
 ## Progress Tracking
 
