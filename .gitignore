@@ -400,3 +400,6 @@ zsdoc/data
 !/tests/_output/.gitkeep
 
 # End of https://www.toptal.com/developers/gitignore/api/python,windows,macos,linux,jupyternotebooks,visualstudiocode,vim,c,rust,zsh
+
+# Other miscellaneous files
+NIST.FIPS.180-4.pdf
