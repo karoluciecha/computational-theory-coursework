@@ -70,6 +70,24 @@ The implementation is based on the following sources:
 
 1. NIST, [FIPS PUB 180-4: Secure Hash Standard (SHS)](https://doi.org/10.6028/NIST.FIPS.180-4), August 2015. The specification of SHA-256: words, padding, constants and the compression function. A copy is included as `NIST.FIPS.180-4.pdf`.
 
+### Test values
+
+2. NIST, [SHA-256 example](https://csrc.nist.gov/CSRC/media/Projects/Cryptographic-Standards-and-Guidelines/documents/examples/SHA256.pdf). A worked example for the message `"abc"`, including its padded block.
+
+### NumPy
+
+3. NumPy, [Data types](https://numpy.org/doc/stable/user/basics.types.html). Fixed-size integer types such as `uint32`, and how overflow behaves.
+4. NumPy, [Data type objects (`dtype`)](https://numpy.org/doc/stable/reference/arrays.dtypes.html). Includes the byte-order codes such as `">u4"`.
+5. NumPy, [`numpy.array`](https://numpy.org/doc/stable/reference/generated/numpy.array.html). Creates arrays from lists.
+6. NumPy, [`numpy.add`](https://numpy.org/doc/stable/reference/generated/numpy.add.html). Addition with a chosen result type.
+7. NumPy, [`numpy.frombuffer`](https://numpy.org/doc/stable/reference/generated/numpy.frombuffer.html). Turns `bytes` into an array.
+8. NumPy, [`numpy.reshape`](https://numpy.org/doc/stable/reference/generated/numpy.reshape.html). Cuts a list of words into rows of blocks.
+
+### Python and text encoding
+
+9. Python Software Foundation, [`bytes` objects](https://docs.python.org/3/library/stdtypes.html#bytes-objects), [`str.encode`](https://docs.python.org/3/library/stdtypes.html#str.encode) and [`int.from_bytes`](https://docs.python.org/3/library/stdtypes.html#int.from_bytes). How text becomes bytes, and how bytes become integers.
+10. MDN Web Docs, [UTF-8](https://developer.mozilla.org/en-US/docs/Glossary/UTF-8). The text encoding used to turn characters into bytes.
+
 ## Progress Tracking
 
 GitHub Issues are used to track the progress of Problems 1 - 6. Each issue records the relevant work, tests, explanations, and completion status for that problem.
