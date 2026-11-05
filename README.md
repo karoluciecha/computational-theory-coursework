@@ -64,7 +64,11 @@ The notebook should be run with a restarted kernel to ensure that all cells exec
 
 ## References
 
-The implementation is based on:
+The implementation is based on the following sources:
+
+### Standard
+
+1. NIST, [FIPS PUB 180-4: Secure Hash Standard (SHS)](https://doi.org/10.6028/NIST.FIPS.180-4), August 2015. The specification of SHA-256: words, padding, constants and the compression function. A copy is included as `NIST.FIPS.180-4.pdf`.
 
 ## Progress Tracking
 
