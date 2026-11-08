@@ -82,11 +82,11 @@ The implementation is based on the following sources:
 6. NumPy, [`numpy.add`](https://numpy.org/doc/stable/reference/generated/numpy.add.html). Addition with a chosen result type.
 7. NumPy, [`numpy.frombuffer`](https://numpy.org/doc/stable/reference/generated/numpy.frombuffer.html). Turns `bytes` into an array.
 8. NumPy, [`numpy.reshape`](https://numpy.org/doc/stable/reference/generated/numpy.reshape.html). Cuts a list of words into rows of blocks.
+9. NumPy, [`ndarray.tobytes`](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.tobytes.html). Turns an array of words back into bytes.
 
 ### Python and text encoding
 
-9. Python Software Foundation, [`bytes` objects](https://docs.python.org/3/library/stdtypes.html#bytes-objects), [`str.encode`](https://docs.python.org/3/library/stdtypes.html#str.encode) and [`int.from_bytes`](https://docs.python.org/3/library/stdtypes.html#int.from_bytes). How text becomes bytes, and how bytes become integers.
-10. MDN Web Docs, [UTF-8](https://developer.mozilla.org/en-US/docs/Glossary/UTF-8). The text encoding used to turn characters into bytes.
+10. Python Software Foundation, [`bytes` objects](https://docs.python.org/3/library/stdtypes.html#bytes-objects), [`str.encode`](https://docs.python.org/3/library/stdtypes.html#str.encode), [`int.from_bytes`](https://docs.python.org/3/library/stdtypes.html#int.from_bytes) and [`int.to_bytes`](https://docs.python.org/3/library/stdtypes.html#int.to_bytes). How text becomes bytes, and how integers and bytes convert in either direction.
 
 ## Progress Tracking
 
